@@ -1,0 +1,19 @@
+
+.logo{
+    filter: grayscale(0.6);
+}
+
+.home{
+    background-color: #333;
+    min-height: 100vh;
+    position: relative; 
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 45vh;
+        background-color: darkslategrey; 
+    }
+}

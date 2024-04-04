@@ -1,0 +1,81 @@
+.card-wrapper {
+  max-width: 900px;
+  background-color: #ffffff;
+  //  position: relative;
+
+  border-radius: 10px;
+
+  .img-container {
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    z-index: 3;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 63%;
+      background-color: #f1f5f8;
+      border-radius: 10px 10px 0 0;
+      z-index: -4;
+      border-bottom: 1px solid darkgray;
+    }
+    .user-img {
+      //    z-index: -2;
+      width: 150px;
+    }
+  }
+
+  .info-buttons span {
+    cursor: pointer !important;
+    background-color: darkslateblue;
+    color: white;
+    box-shadow: 5px 5px 10px gray;
+    transition: 0.7s;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    &:hover {
+      background-color: black;
+
+      border-radius: 15px;
+    }
+  }
+
+  .saved-users {
+    .saved-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      .saved-button {
+        cursor: pointer !important;
+        width: 150px;
+        padding: 8px 0;
+        background-color: darkslategrey;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        transition: 0.7s;
+
+        &:hover {
+          background-color: darkslateblue;
+          color: wheat;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:767px){
+    .email-column{
+          display:none
+       }
+       .other-columns{
+        font-size: .9rem;
+       }
+}
+ 
