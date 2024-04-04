@@ -8,10 +8,10 @@
     <img src="./public/img/id-card.png" alt="Logo" width="250"   >
   </a>
 
-  <h3 align="center">Todo React App</h3>
+  <h3 align="center">Random User React App</h3>
 
   <p align="center">
-    An awesome Todo React App
+    An awesome Random User React App
     <a href="https://github.com/ibrsec/random-user-react"><strong>Explore the docs »</strong></a>
     <br />
     <br />
